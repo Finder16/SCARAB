@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>scarab_stage2_fuzzer</name>
+  <version>0.1.0</version>
+  <description>Stage 2 directed concurrency fuzzer components for SCARAB.</description>
+
+  <maintainer email="devnull@example.com">SCARAB</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>nav2_costmap_2d</exec_depend>
+  <exec_depend>nav2_controller</exec_depend>
+  <exec_depend>nav2_planner</exec_depend>
+  <exec_depend>nav2_behaviors</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

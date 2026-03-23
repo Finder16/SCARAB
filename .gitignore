@@ -1,0 +1,30 @@
+build*/
+build/
+.docker_logs/
+.colcon_*
+.claude/
+nav2_ws/
+e2e_output/
+install/
+log/
+evaluation/results/
+build-fresh*/
+paper/build/
+
+# Logs
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# PDF build output for local drafts
+paper/**/*.pdf
